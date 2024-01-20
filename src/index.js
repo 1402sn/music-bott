@@ -1,6 +1,7 @@
 require("dotenv").config();
 require("./modules/checkValid");
 
+const keepAliveServer = require('./keep_alive.js');
 const { Client, Collection, GatewayIntentBits } = require("discord.js");
 
 const { Player } = require("discord-player");
